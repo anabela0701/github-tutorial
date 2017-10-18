@@ -1,9 +1,15 @@
 # GitHub Tutorial
 
-_by <your-name-here>_
+_By: Anabel Arbeeny_
 
 ---
 ## Git vs. GitHub
+####Git-  
+Git is used to store "screencshots" of code so that you have "checkpoints" of code so that if the code breaks you have somewhere to go back to and start fresh.Git does not require git hub to work. Git uses commands:
+
+####GitHub-  [GitHub](www.github.com)
+is a cloud that when you push the "screenshot" it is held there and you can acess it anywhere. 
+
 
 
 
