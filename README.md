@@ -112,7 +112,7 @@ headers= putting a "#" in front of words you can put from 1-6 number signs infro
 
 ### git reset -- soft HEAD 
 * undos a commit 
-    *look up online how to undo a commit in git and go to stack overflow and you will find it there
+    * look up online how to undo a commit in git and go to stack overflow and you will find it there
 
 
 ### git reset HEAD
