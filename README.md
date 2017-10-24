@@ -5,7 +5,7 @@ _By: Anabel Arbeeny_
 ---
 ## Git vs. GitHub
 #### Git-  
-Git is used to store "screencshots" of code so that you have "checkpoints" of code so that if the code breaks you have somewhere to go back to and start fresh.Git does not require git hub to work. Git uses commands:
+Git is used to store "screencshots" of code so that you have "checkpoints" of code so if the code breaks you have somewhere to go back to and start fresh.Git does not require git hub to work. Git uses commands:
 
 
 #### GitHub-  
@@ -17,10 +17,10 @@ Git is used to store "screencshots" of code so that you have "checkpoints" of co
 ### setting up an account for GitHub 
 * 1- The first step it to got to [github](www.github.com)
 * 2- Now you are on the home page in the top right corner you will see "sign up" click that and follow the instructions 
+(include how to sign into c9.io)
 
 
-
-* 3- After you setup the Github account look around and become familiar with GitHubs setup anbd what the website is like. 
+* 3- After you setup the Github account look around and become familiar with GitHubs setup and what the website is like. 
 
 ### Setting up c9.io
 * 1- Go to [Cloud9](https://c9.io) 
@@ -41,11 +41,11 @@ Git is used to store "screencshots" of code so that you have "checkpoints" of co
 ### Remote repository
 * 1- Go to github and in the top right there is a "+" icon Click it and then click "new repository"
 * 2- Fill in your info and make it public 
-* 3- The add create
+* 3- Then add create
 
 
 ### local repository
-* 1- Go to cloud9 and on your dashboard click add 
+* 1- Go to cloud9 and on your dashboard click create a new workspace 
 * 2- Fill out the Information that pertains to your repo 
         *  repo= repository
 * 3- Then create the repo  
@@ -73,7 +73,7 @@ Use 2: to move a file from one place to another
 * **_git add file.extenison_** :adds a file(S) to the stage that are ready to be committed 
 * **_git add_** : adds all files
 * **_git add --all_** : adds all files even deleted ones 
-* **_ git add *.txt_** : add all txt files 
+* **_git add.txt_** : add all txt files 
 * **_git commit -m "message"_** : takes a "snapshot" of the code that you have finished and added to the stage so you have a checkpoint to go to if something * is to breaks 
 * **_git remote add origin URL_** : this makes a "rode"/ cnnection to the remote repo or GitHub in this case so ehrn you push it knows where to go 
 * **_git push -u origin master_** : pushes your code from the local repository to the remote repository and using -u rembers the place you want to push so you dont have to type "git push origin master" everytime you wanna push so when you would like to push again you can use "git push" adn that will push to the specified repo when you used "git remote add origin URL". 
