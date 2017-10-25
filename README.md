@@ -74,7 +74,7 @@ Use 2: to move a file from one place to another
 * **_git add_** : adds all files
 * **_git add --all_** : adds all files even deleted ones 
 * **_git add.txt_** : add all txt files 
-* **_git commit -m "message"_** : takes a "snapshot" of the code that you have finished and added to the stage so you have a checkpoint to go to if something * is to breaks 
+* **_git commit -m "message"_** : takes a "snapshot" of the code that you have finished and added to the stage so you have a checkpoint to go to if something  is to break. The -m and the message following it is to allow when you add/commit/push and then you go on github you know what each commit was for by this message. So lets say you changer some markdown and then commit your commit message would say soemthing along the lines of "change markdown". Always make sure the commit messange is in present tense and is USEFUL FOR YOU. creating a good commit message will make it easier to know what screenshot you want to go back to if something again is to break
 * **_git remote add origin URL_** : this makes a "rode"/ cnnection to the remote repo or GitHub in this case so ehrn you push it knows where to go 
 * **_git push -u origin master_** : pushes your code from the local repository to the remote repository and using -u rembers the place you want to push so you dont have to type "git push origin master" everytime you wanna push so when you would like to push again you can use "git push" adn that will push to the specified repo when you used "git remote add origin URL". 
 * **_git pull_** : takes any changes form remote repo and brings them to the local repo 
